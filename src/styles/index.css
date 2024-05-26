@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Inter;
+    color: rgba(86, 82, 82, 1);
+    background: rgba(218, 215, 205, 1);
+    font-size: 16px;
+    font-weight: 800;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh;
+    background-color: #CACABF;
+}
+
+
+.balance {
+    vertical-align:top;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.57px; 
+    color: rgba(58, 90, 64, 1); 
+}
+
+.notification {
+    color: rgba(58, 90, 64, 1);
+    fill: rgba(58, 90, 64, 1);
+    stroke: rgba(58, 90, 64, 1);
+    
+}
+.notification:hover {
+    fill: rgba(205, 68, 30, 1);
+    stroke: rgba(205, 68, 30, 1);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 74vh;
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+    background-color: #CACABF;
+}
+
+footer{
+    display: flex;
+    height: 18vh;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 4px solid rgba(58, 90, 64, 1);
+    border-radius: 45px 45px 45px 45px;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+}
+nav button{
+    border: none;
+    border-radius: 5vh;
+    background: rgba(218, 215, 205, 1);
+    color: rgba(58, 90, 64, 1);
+    fill: rgba(58, 90, 64, 1);
+    stroke: rgba(58, 90, 64, 1);
+}
+
+nav button:hover {
+    fill: rgba(205, 68, 30, 1);
+    stroke: rgba(205, 68, 30, 1);
+}
+
+nav button.active {
+    color: rgba(205, 68, 30, 1);;
+    fill: rgba(205, 68, 30, 1);
+    stroke: rgba(205, 68, 30, 1);
+}
+
+#tree {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+}
+
+.btnTree{
+    background-color: #CACABF;
+    border-radius: 5vh;
+    border:none;
+    width: 100%;
+    height: 100%;
+
+}
+
+.btnTree{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.pageBtns {
+    margin: auto;
+}
+#page_1 {
+    width: 12px;
+    height: 12px;
+    background: rgba(74, 74, 74, 1);
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+
+}
+
+.notificationBox {
+    margin-top: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-height: calc(72vh - 10.5vh);
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+.notificationBoxItem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid rgba(205, 68, 30, 1);
+    border-radius: 5vh;
+    width: 70%;
+    max-width: 400px; 
+    margin: auto;
+    margin-bottom: 2vh;
+    padding: 5vh 3vh 5vh 3vh;
+    text-align: center;
+  }
+
+.notificationBoxItem p{
+    font-size: 20px;
+}
+
+.boxWindow {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgba(205, 68, 30, 1);
+    border-radius: 4vh;
+    width: 85%;
+    height: 60vh;
+    text-align: center;
+    margin: auto;
+    margin-top: 2vh;
+    
+}
+
+.positionItemBox{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2vh;
+    overflow: hidden;
+}
+
+.positionItemBoxTask{
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: red;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    top: 6vh;
+    overflow: hidden;
+}
+
+.itemBox {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5vh;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(201, 198, 189, 1);
+    font-size: 24px;
+    width: 35%;
+    height: 19vh;
+    padding: 3vh; 
+    margin: 2vh;
+    margin-right: auto;
+    margin-left: 3%;
+    overflow: hidden;
+}
+
+.productName {
+    font-size: 20px;
+
+}
+
+.product_1 {
+    width: 100%;
+    height: 100%;
+}
+
+.pageBtnsWallet{
+    display: inline-flex;
+    margin: auto;
+    margin-bottom: 4vh;
+}
+
+#pageW_1 {
+    width: 10px;
+    height: 10px;
+    background: rgba(74, 74, 74, 1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px; 
+    position: relative;
+    left: -5px;
+    
+}
+#pageW_2 {
+    width: 10px;
+    height: 10px;
+    background:rgba(164, 164, 164, 1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;  
+}
+#pageW_3 {
+    width: 10px;
+    height: 10px;
+    background:rgba(164, 164, 164, 1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px; 
+    position: relative;
+    left: 5px; 
+}
+
+.pageBtnsTasks {
+    margin-top: 280px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+#pageT_1 {
+    width: 10px;
+    height: 10px;
+    background: rgba(74, 74, 74, 1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px; 
+    position: relative;
+    left: -5px;
+    
+}
+#pageT_2 {
+    width: 10px;
+    height: 10px;
+    background:rgba(164, 164, 164, 1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;  
+}
+#pageT_3 {
+    width: 10px;
+    height: 10px;
+    background:rgba(164, 164, 164, 1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px; 
+    position: relative;
+    left: 5px; 
+}
+
+.taskBox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; 
+    border: 4px solid rgba(205, 68, 30, 1);
+    border-radius: 45px 45px 45px 45px;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 20%;
+    text-align: center;
+    margin: auto;
+
+}
+#taskName {
+    position: absolute;
+    margin-top: -90%;
+    text-align: center;
+    font-size: 24px;
+}
+#taskText{
+    margin-top: -5%;
+    font-size: 16px;
+
+}
+.taskPriceBox {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 0%;
+    border: 1px solid rgba(86, 82, 82, 1);
+    border-radius: 20px;
+    width: 35%;
+    height: 9%;
+    border: 1px 0px 0px 0px;
+}
+.taskCoin {
+    position: absolute;
+    display:table-cell;
+    vertical-align:middle;
+    margin-top: 1%;
+    margin-left: 5%;
+    
+}
+.taskPriceText {
+    position: absolute;
+    vertical-align:super;
+    margin-top: 2%;
+    margin-left: 0%;
+    font-size: 20px;
+}
+
+.reportBox {
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 0%;
+    border: 1px solid rgba(86, 82, 82, 1);
+    border-radius: 20px;
+    width: 70%;
+    height: 10%;
+    border: 1px 0px 0px 0px;
+    font-size: 18px;
+    
+}
+

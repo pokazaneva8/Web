@@ -1,0 +1,49 @@
+.leaderboardBox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 98%;
+    overflow: hidden;
+}
+.leaderboardText{
+    margin: auto;
+    padding: 2vh;
+}
+.leaderboard {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid rgba(205, 68, 30, 1);
+    border-radius: 4vh;
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    padding-top: 2vh;
+}
+
+.player {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid rgba(205, 68, 30, 1);
+    border-radius: 20px;
+    margin-top: 0.4vh;
+}
+#playerNumber {
+    display: flex;
+    border: 2px solid rgba(205, 68, 30, 1);
+    border-radius: 20px;
+    background-color: rgba(205, 68, 30, 1);;
+    color: #ffffff;
+    width: 6vh;
+    justify-content: center;
+}
+
+#playerBalance {
+    display: flex;
+    border: 2px solid rgba(205, 68, 30, 1);
+    border-radius: 20px;
+    background-color: rgba(205, 68, 30, 1);
+    color: #ffffff;
+    justify-content: center;
+    width: 6vh;
+}

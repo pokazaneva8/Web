@@ -1,0 +1,25 @@
+.PriceBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 1px solid rgba(86, 82, 82, 1);
+    border-radius: 20px;
+    width: auto;
+    height: 12%;
+    margin: auto;
+    margin-top: 2vh;
+    padding: 0.2vh;
+}
+
+.coinPriceImage img {
+    width: 20%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+.PriceText{
+    font-size: 15px;
+    vertical-align:middle;
+}
